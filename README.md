@@ -1,7 +1,4 @@
-# AGUI [![Build Status](https://travis-ci.org/thahn0720/agui_framework.png)](https://travis-ci.org/thahn0720/agui_framework)
-(Android Graphic User Interface)
-
-Gitter
+# AGUI Api Demos
 
 Not Yet Released
 

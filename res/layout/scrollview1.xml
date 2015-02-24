@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:agui="http://schemas.agui.com/apk/res/agui"
+agui:id="@+id/scrollview" 	
+agui:layout_width="match_parent" 
+agui:layout_height="match_parent"
+agui:padding="20"
+>
+	<LinearLayout
+		agui:id="@+id/root"
+		agui:layout_width="match_parent"
+		agui:layout_height="wrap_content"
+		>
+
+	</LinearLayout>
+</ScrollView> 

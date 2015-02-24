@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<TextView  xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	    agui:id="@+id/view1"
+	    agui:layout_width="wrap_content"
+	    agui:layout_height="wrap_content"
+	    agui:text="text\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntexttexttexttexttexttexttexttexttexttexttext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext"
+	    agui:background="#50000000"
+	    >
+	    <!-- agui:background="@drawable/test" 
+	    agui:text="text"
+	    -->
+   </TextView> 

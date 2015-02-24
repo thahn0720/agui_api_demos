@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout
+  xmlns:agui="http://schemas.agui.com/apk/res/agui"
+  agui:layout_width="match_parent"
+  agui:layout_height="wrap_content"
+  agui:orientation="horizontal"
+  >
+	  <Button agui:id="@+id/tab_friends"
+	  agui:layout_width="wrap_content"
+	  agui:layout_height="wrap_content"
+	  agui:text="친구sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
+	  agui:layout_weight="1"
+	  />
+	  
+	  <Button agui:id="@+id/tab_chatting"
+	  agui:layout_width="wrap_content"
+	  agui:layout_height="wrap_content"
+	  agui:text="채팅"
+	  agui:layout_weight="1"
+	  />
+	  
+	  <Button agui:id="@+id/tab_more"
+	  agui:layout_width="wrap_content"
+	  agui:layout_height="wrap_content"
+	  agui:text="더보기"
+	  agui:layout_weight="1"
+	  />
+	  
+	  <Button agui:id="@+id/tab_more2"
+	  agui:layout_width="wrap_content"
+	  agui:layout_height="wrap_content"
+	  agui:text="더보기"
+	  agui:layout_weight="1"
+	  />
+  </LinearLayout>

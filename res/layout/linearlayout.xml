@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	agui:id="@+id/root"	
+	agui:layout_width="wrap_content"
+    agui:layout_height="wrap_content"
+	agui:orientation="vertical"    
+	agui:gravity="center"
+	agui:layout_margin="20"
+>
+	<!-- agui:layout_margin="20" -->
+	<TextView 
+	    agui:id="@+id/text1"
+	    agui:layout_width="wrap_content"
+	    agui:layout_height="wrap_content"
+	    agui:singleLine="false"
+	    agui:layout_margin="20"
+	    agui:text="123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789"
+	    agui:layout_weight="1"
+	    />
+	<TextView 
+	    agui:id="@+id/text2"
+	    agui:layout_width="wrap_content"
+	    agui:layout_height="wrap_content"
+	    agui:singleLine="false"
+	    agui:text="123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789"
+	    agui:layout_weight="1"
+	    />
+   	<TextView 
+	    agui:id="@+id/text3"
+	    agui:layout_width="wrap_content"
+	    agui:layout_height="wrap_content"
+	    agui:singleLine="false"
+	    agui:text="123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789"
+	    agui:layout_weight="1"
+	    />  
+	    
+<!--   	    <LinearLayout 
+		agui:id="@+id/root2"	
+		agui:layout_width="wrap_content"
+	    agui:layout_height="wrap_content"
+		agui:orientation="horizontal"    
+	>    
+	   	<TextView 
+		    agui:id="@+id/text3"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:text="123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890"
+		    agui:layout_weight="1"
+		    />
+		    
+	    <TextView 
+		    agui:id="@+id/text4"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:text="123456"
+		    agui:layout_weight="1"
+		    />
+	</LinearLayout>   -->
+	     
+<!-- 	<RelativeLayout 
+	agui:id="@+id/root3"	
+	agui:layout_width="wrap_content"
+    agui:layout_height="wrap_content"
+	>
+		<Button 
+		    agui:id="@+id/view2"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:singleLine="false"
+		    agui:text="123"
+		    agui:layout_toRightOf="@+id/view1"
+		    agui:gravity="center"
+		    >
+	    </Button>
+	  
+	   	<Button 
+	   		agui:id="@+id/view3"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:singleLine="false"
+		    agui:text="123"
+		    agui:layout_below="@+id/view2"
+		    agui:gravity="center"
+		    >
+		</Button>
+		
+		  <Button 
+		    agui:id="@+id/view1"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:singleLine="false"
+		    agui:text="123"
+		    agui:gravity="center"
+		    >
+	   </Button> 
+	</RelativeLayout> -->
+</LinearLayout>

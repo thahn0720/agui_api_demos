@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	agui:id="@+id/root"	
+	agui:layout_width="match_parent"
+    agui:layout_height="match_parent"
+	agui:orientation="horizontal"  
+	agui:gravity="center"  
+>
+	<CheckBox 
+	    agui:id="@+id/CheckBox1"
+	    agui:layout_width="match_parent"
+	    agui:layout_height="wrap_content"
+	    agui:text="124567890124567890124567890124567890124567890124567890124567890124567890124567890124567890124567890124567890124567890124567890124567890124567890"
+	    />
+<!-- 	    agui:paddingLeft="50"
+	    agui:paddingRight="30"
+	    agui:paddingTop="50"
+	    agui:paddingBottom="50"  -->
+   
+   
+<!--    <CheckBox 
+	    agui:id="@+id/CheckBox2"
+	    agui:layout_width="wrap_content"
+	    agui:layout_height="wrap_content"
+	    agui:text="CheckBox2"
+	    />
+   
+   <CheckBox 
+	    agui:id="@+id/CheckBox3"
+	    agui:layout_width="wrap_content"
+	    agui:layout_height="wrap_content"
+	    agui:text="CheckBox3"
+	    />  -->
+	
+	<!-- <RadioCheckBox 
+	    agui:id="@+id/text2"
+	    agui:layout_width="wrap_content"
+	    agui:layout_height="wrap_content"
+	    agui:singleLine="false"
+	    agui:text="123"
+	    >
+    </RadioCheckBox> -->
+</LinearLayout>

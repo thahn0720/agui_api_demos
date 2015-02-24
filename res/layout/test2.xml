@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:agui="http://schemas.agui.com/apk/res/agui"
+  agui:id="@+id/chatting_tab"
+  agui:layout_width="match_parent"
+  agui:layout_height="match_parent"
+  agui:orientation="vertical"
+  >
+	<ListView agui:id="@+id/chatting_list"
+	agui:layout_width="match_parent"
+	agui:layout_height="match_parent"
+	agui:layout_weight="1"
+	/> 
+	
+	<LinearLayout 
+	agui:id="@+id/function_list"
+	agui:layout_width="match_parent"
+	agui:layout_height="wrap_content"
+	agui:orientation="horizontal"
+	agui:gravity="center_vertical"
+	>
+		<ImageView
+		agui:id="@+id/emoticon"
+		agui:layout_width="30px"
+		agui:layout_height="30px"
+		/>
+		<ImageView
+		agui:layout_width="30px"
+		agui:layout_height="30px"
+		agui:layout_marginLeft="7px"
+		agui:layout_marginRight="7px"
+		/>	
+		<ImageView
+		agui:id="@+id/camera"
+		agui:layout_width="30px"
+		agui:layout_height="30px"
+		/>
+	</LinearLayout> 
+	
+	<LinearLayout 
+	agui:id="@+id/function_list"
+	agui:layout_width="match_parent"
+	agui:layout_height="60px"
+	agui:orientation="horizontal"
+	agui:gravity="center_vertical"
+	>
+		<EditText 
+		agui:id="@+id/edit_text"
+		agui:layout_width="match_parent"
+		agui:layout_height="match_parent"
+		agui:hint="input message"
+		agui:layout_weight="1"
+		agui:padding="5px"
+		/>
+		
+		<Button
+		agui:id="@+id/function_list"
+		agui:layout_width="40px"
+		agui:layout_height="40px"
+		agui:text="전송"
+		agui:textStyle="bold"
+		/>
+	</LinearLayout> 
+	  
+</LinearLayout>

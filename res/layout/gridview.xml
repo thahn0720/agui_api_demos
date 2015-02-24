@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView
+xmlns:agui="http://schemas.agui.com/apk/res/agui"
+agui:id="@+id/gridview" 	
+agui:layout_width="match_parent" 
+agui:layout_height="match_parent"
+agui:numColumns="3"
+agui:padding="20"
+/>
+<!-- 
+agui:numColumns="autofit"
+agui:columnWidth="20" 
+-->

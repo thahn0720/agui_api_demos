@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	agui:id="@+id/parent"	
+	agui:layout_width="wrap_content"
+    agui:layout_height="wrap_content"
+>
+	<RelativeLayout 
+		agui:id="@+id/root"	
+		agui:layout_width="wrap_content"
+	    agui:layout_height="wrap_content"
+	>
+	    <!-- agui:background="./res/drawable/test.PNG" -->
+		<Button 
+		    agui:id="@+id/view2"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:singleLine="false"
+		    agui:text="1231231231312312312312312312312312313123123123123123123123123131231231231231231231231231312312312312312312312312313123123123123123123123123"
+		    agui:gravity="center"
+		    agui:layout_toLeftOf="@+id/view7"
+		    />
+		    
+	    <Button 
+		    agui:id="@+id/view7"
+		    agui:layout_width="100px"
+		    agui:layout_height="wrap_content"
+		    agui:singleLine="false"
+		    agui:text="123123"
+		    agui:gravity="center"
+		    agui:layout_alignParentRight="true"
+		    agui:layout_centerVertical="true"
+		    agui:paddingLeft="20px"
+		    />
+	  
+	   	<Button 
+	   		agui:id="@+id/view3"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:singleLine="false"
+		    agui:text="123"
+		    agui:layout_below="@+id/view2"
+		    agui:layout_alignLeft="@+id/view2"
+		    agui:gravity="center"
+		    />
+		
+		  <Button 
+		    agui:id="@+id/view1"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:singleLine="false"
+		    agui:text="123"
+		    agui:gravity="center"
+		    agui:layout_alignTop="@+id/view3"
+		    agui:layout_alignRight="@+id/view2"
+		    />
+	<!-- 	    agui:layout_alignParentLeft="true" 
+	agui:layout_centerHorizontal="true"
+		    agui:layout_centerVertical="true"
+	-->
+	</RelativeLayout>
+
+	<RelativeLayout 
+	agui:id="@+id/root2"	
+	agui:layout_width="wrap_content"
+    agui:layout_height="wrap_content"
+    agui:layout_below="@+id/root"
+	>
+   <!-- agui:background="./res/drawable/test.PNG" -->
+		<Button 
+		    agui:id="@+id/view4"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:singleLine="false"
+		    agui:text="123"
+		    agui:layout_toRightOf="@+id/view6"
+		    agui:gravity="center"
+		    >
+	    </Button>
+	  
+	   	<Button 
+	   		agui:id="@+id/view5"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:singleLine="false"
+		    agui:text="123"
+		    agui:layout_below="@+id/view6"
+		    agui:gravity="center"
+		    >
+		</Button>
+		
+		  <Button 
+		    agui:id="@+id/view6"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:singleLine="false"
+		    agui:text="123"
+		    agui:gravity="center"
+		    >
+	   </Button> 
+	</RelativeLayout>
+	<LinearLayout
+	    agui:layout_width="wrap_content"
+	    agui:layout_height="wrap_content"
+		agui:layout_below="@+id/root2"
+		agui:orientation="vertical"    
+	    >
+	    <Button 
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:singleLine="false"
+		    agui:text="123"
+		    agui:gravity="center"
+		    >
+	   </Button> 
+	   <Button 
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:singleLine="false"
+		    agui:text="123"
+		    agui:gravity="center"
+		    >
+	   </Button> 
+    </LinearLayout>
+</RelativeLayout>

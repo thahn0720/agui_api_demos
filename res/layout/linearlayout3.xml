@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout 
+  	xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	agui:id="@+id/function_list"
+	agui:layout_width="match_parent"
+	agui:layout_height="60"
+	agui:orientation="horizontal"
+	agui:gravity="center_vertical"
+	>
+		<EditText 
+		agui:id="@+id/edit_text"
+		agui:layout_width="match_parent"
+		agui:layout_height="match_parent"
+		agui:text="text"
+		agui:layout_weight="1"
+		/>
+		
+		<Button
+		agui:id="@+id/function_list"
+		agui:layout_width="wrap_content"
+		agui:layout_height="wrap_content"
+		agui:text="전송"
+		/>
+</LinearLayout>

@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:agui="http://schemas.agui.com/apk/res/agui"
+    package="thahn.java.agui.test"
+    agui:versionCode="1"
+    agui:versionName="1.0" >
+
+    <uses-sdk agui:minSdkVersion="5" />
+
+<!--             agui:screenPositionX=""
+            agui:screenPositionY=""
+            agui:windowPositionX=""
+            agui:windowPositionY=""
+            agui:absoultePositionX=""
+            agui:absoultePositionY="" -->
+    <application
+        agui:icon="@drawable/ic_launcher"
+        agui:label="@string/app_name" 
+        agui:width="500"
+        agui:height="500"
+        >
+        <activity
+            agui:name=".ApiDemos"
+            agui:label="ApiDemos"
+            agui:width="350"
+            agui:height="400"
+            >
+            <intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.DEFAULT" />
+                <category agui:name="agui.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action agui:name="wifi.smartphone.lge.WifiLogger" />
+            </intent-filter>
+        </activity>
+
+		<!-- convertion -->
+        <activity
+            agui:name=".convertion.ConvertionAnnotationTestActivity"
+            agui:label="Convertion/ConvertionAnnotationTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+		
+		<!-- supporv4 -->
+        <activity
+            agui:name=".supporv4.TestViewPagerActivity"
+            agui:label="SupporV4/TestViewPagerActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".supporv4.NavigationDrawerActivity"
+            agui:label="SupporV4/NavigationDrawerActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".supporv4.NavigationRTLDrawerActivity"
+            agui:label="SupporV4/NavigationRTLDrawerActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+		<!-- http -->
+        <activity
+            agui:name=".http.HttpTestActivity"
+            agui:label="Http/HttpTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+		
+		<!-- anim -->
+        <activity
+            agui:name=".anim.ScaleAnimTestActivity"
+            agui:label="Anim/ScaleAnimTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".anim.AnimationSetTestActivity"
+            agui:label="Anim/AnimationSetTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".anim.InterpolatorTestActivity"
+            agui:label="Anim/InterpolatorTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".anim.RotateAnimTestActivity"
+            agui:label="Anim/RotateAnimTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".anim.TranslateAnimTestActivity"
+            agui:label="Anim/TranlateAnimTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".anim.AlphaAnimTestActivity"
+            agui:label="Anim/AlphaAnimTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <!-- view -->
+        
+        <activity
+            agui:name=".view.IncludeTestActivity"
+            agui:label="View/IncludeTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.CodeViewTestActivity"
+            agui:label="View/CodeViewTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".view.TextViewTestActivity"
+            agui:label="View/TextViewTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".view.TextViewTestActivity2"
+            agui:label="View/TextViewTestActivity2" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.RelativeLayoutTestActivity"
+            agui:label="View/RelativeLayoutTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.EditTextTestActivity"
+            agui:label="View/EditTextTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+		<activity
+            agui:name=".fragment.FragmentArguments"
+            agui:label="Fragment/FragmentArguments"
+            >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".fragment.FragmentDialog"
+            agui:label="Fragment/FragmentDialog"
+            >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".app.StartActivityTestActivity"
+            agui:label="App/StartActivityTestActivity"
+            agui:theme="@agui:style/Theme.NoTitleBar" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".app.SetResultTestActivity"
+            agui:label="App/SetResultTestActivity"
+            agui:theme="@agui:style/Theme.NoTitleBar" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".app.DialogTestActivity"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="App/DialogTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".app.HandlerTestActivity"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="App/HandlerTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".app.AsyncTaskTestActivity"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="App/AsyncTaskTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.CompoundButtonTestActivity"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="View/CompoundButtonTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+       	<activity
+            agui:name=".view.ListViewTestActivity"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="View/ListViewTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".view.ListViewHeaderFooterTestActivity"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="View/ListViewHeaderFooterTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.PaddingTestActivity"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="View/PaddingTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+                
+        <activity
+            agui:name=".view.PaddingTestActivity2"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="View/PaddingTestActivity2" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+                
+        <activity
+            agui:name=".view.PaddingTestActivity3"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="View/PaddingTestActivity3" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+                
+		<activity
+            agui:name=".view.RelativeLayoutTestActivity"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="View/RelativeLayoutTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".TestActivity"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="TestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".app.StartServiceTestActivity"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="App/StartServiceTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".app.StartActivityInNewWindowTestActivity"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="App/StartActivityInNewWindowTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".app.SendIntentTestActivity"
+            agui:theme="@agui:style/Theme.NoTitleBar"
+            agui:label="App/SendIntentTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".app.SendBroadcastTestActivity"
+            agui:theme="@agui:style/Theme.NoTitleBar"
+            agui:label="App/SendBroadcastTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.ShellViewTestActivity"
+            agui:theme="@agui:style/Theme.Dialog"
+            agui:label="View/ShellViewTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <!-- sqlite -->
+        <activity
+            agui:name=".sqlite.SqliteTestActivity"
+            agui:label="DB/AnimationSetTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".app.ContextMenuTestActivity"
+            agui:label="App/ContextMenuTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".app.ThemeTestActivity"
+            agui:label="App/ThemeTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".app.ManifestThemeTestActivity"
+            agui:label="App/ManifestThemeTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <!-- view -->    
+        <activity
+            agui:name=".view.ImageViewTestActivity"
+            agui:label="View/ImageViewTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.RadioGroupTestActivity"
+            agui:label="View/RadioGroupTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            agui:name=".view.HorizontalScrollViewTestActivity"
+            agui:label="View/HorizontalScrollViewTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.ScrollViewTestActivity"
+            agui:label="View/ScrollViewTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.LinearLayoutGravityTestActivity"
+            agui:label="View/LinearLayoutGravityTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.LinearLayoutTestActivity"
+            agui:label="View/LinearLayoutTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.LinearLayoutTestActivity2"
+            agui:label="View/LinearLayoutTestActivity2" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.LinearLayoutTestActivity3"
+            agui:label="View/LinearLayoutTestActivity3" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".view.VisibilityTestActivity"
+            agui:label="View/VisibilityTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.GridViewTestActivity"
+            agui:label="View/GridViewTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".view.SeekBarTestActivity"
+            agui:label="View/SeekBarTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".view.ListViewSingleActivatedTestActivity"
+            agui:label="View/ListViewSingleActivatedTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".view.ListViewMultipleActivatedTestActivity"
+            agui:label="View/ListViewMultipleActivatedTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".view.ListViewCheckedTestActivity"
+            agui:label="View/ListViewCheckedTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <!--  app -->
+        <activity
+            agui:name=".app.SharedPreferencesTestActivity"
+            agui:label="App/SharedPreferencesTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            agui:name=".media.MediaPlayerTestActivity"
+            agui:label="Media/MediaPlayerTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".app.NotificationTestActivity"
+            agui:label="App/NotificationTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".app.ToastTestActivity"
+            agui:label="App/ToastTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+            
+        <activity
+            agui:name=".app.ActionBarTestActivity"
+            agui:icon="@drawable/ic_launcher"
+            agui:label="App/ActionBarTestActivity" >
+			<intent-filter>
+                <action agui:name="agui.intent.action.MAIN" />
+                <category agui:name="agui.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+       	<service agui:name=".TestService" agui:label="@string/app_name" 
+			agui:icon="@drawable/ic_launcher"
+			/>
+<!-- 			agui:process="dksxogudsla.agui.UbiApp.Service" 
+			agui.enable="true" 
+			-->
+            
+        <receiver agui:name=".BroadcastReceiverTest"
+            agui:permission="com.google.agui.c2dm.permission.SEND">
+            <intent-filter>
+                <action agui:name="com.google.agui.c2dm.intent.RECEIVE" />
+                <category agui:name="dksxogudsla.java.agui.test" />
+            </intent-filter>
+            <intent-filter>
+                <action agui:name="com.google.agui.c2dm.intent.REGISTRATION" />
+                <category agui:name="dksxogudsla.java.agui.test" />
+            </intent-filter>
+        </receiver>
+        
+    </application>
+
+</manifest>

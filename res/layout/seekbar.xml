@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	agui:id="@+id/view1"
+	agui:layout_width="match_parent"
+	agui:layout_height="match_parent"
+	>
+	<SeekBar
+		agui:id="@+id/seekbar"
+		agui:layout_width="match_parent"
+		agui:layout_height="wrap_content"
+		agui:progress="50"
+		agui:secondaryProgress="100"
+		agui:padding="20dip"
+		agui:layout_margin="20dip"
+	/>
+</LinearLayout>

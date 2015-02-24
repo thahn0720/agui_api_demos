@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	agui:layout_width="match_parent"
+    agui:layout_height="match_parent"
+	agui:orientation="vertical"
+	agui:padding="20px"    
+> 
+		<CheckBox 
+	    agui:id="@+id/view1"
+	    agui:layout_width="wrap_content"
+	    agui:layout_height="wrap_content"
+	    agui:text="view1"
+	    agui:padding="20px"
+	    />
+	    
+	    <CheckBox 
+	    agui:id="@+id/view2"
+	    agui:layout_width="wrap_content"
+	    agui:layout_height="wrap_content"
+	    agui:text="view2"
+	    />
+	    
+	    <RadioGroup 
+		agui:id="@+id/root"	
+		agui:layout_width="match_parent"
+	    agui:layout_height="match_parent"
+		agui:orientation="vertical"
+		agui:padding="20px"    
+		>
+		<RadioButton 
+		    agui:id="@+id/radio1"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:text="123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789"
+		    agui:padding="20px"
+		    />
+		
+		<RadioButton
+		    agui:id="@+id/radio2"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:text="123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789"
+		    />
+	   	<RadioButton 
+		    agui:id="@+id/radio3"
+		    agui:layout_width="wrap_content"
+		    agui:layout_height="wrap_content"
+		    agui:text="123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789"
+		    />
+		</RadioGroup>
+</LinearLayout>

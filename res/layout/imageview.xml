@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<ImageView  xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	    agui:id="@+id/view1"
+	    agui:layout_width="match_parent"
+	    agui:layout_height="match_parent"
+	    agui:background="@drawable/my_profile_image_frame" 
+	    agui:src="@drawable/progressbar0"
+	    agui:scaleType="center" 
+	    />
+	    <!-- agui:background="@drawable/test" 
+	    agui:text="text"
+	    src
+	    scaleType
+	    -->

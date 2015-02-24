@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+	xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	agui:id="@+id/view1"
+	agui:layout_width="wrap_content"
+	agui:layout_height="wrap_content"
+	agui:text="text\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntexttexttexttexttexttexttexttexttexttexttext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext\ntext"
+	agui:drawableLeft="@drawable/progressbar0"
+	agui:drawableRight="@drawable/progressbar0"
+	agui:drawablePadding="20dip"
+	agui:drawableTop="@drawable/progressbar0"
+	agui:drawableBottom="@drawable/progressbar0"
+	agui:background="#50000000">
+</TextView> 

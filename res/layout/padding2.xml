@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	agui:layout_width="match_parent"
+    agui:layout_height="match_parent"
+	agui:orientation="vertical"    
+> 
+	<ListView
+	agui:id="@+id/listview"
+	agui:layout_width="match_parent"
+    agui:layout_height="match_parent"
+    agui:padding="20px"
+	/>
+	<!-- agui:paddingLeft="20"
+    agui:paddingTop="20"
+    agui:paddingRight="20"
+    agui:paddingBottom="20" -->
+</LinearLayout>

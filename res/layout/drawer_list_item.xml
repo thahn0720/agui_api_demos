@@ -1,0 +1,30 @@
+<!--
+  Copyright 2013 The agui Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<TextView xmlns:agui="http://schemas.agui.com/apk/res/agui"
+    agui:id="@agui:id/text1"
+    agui:layout_width="match_parent"
+    agui:layout_height="wrap_content"
+    agui:gravity="center_vertical"
+    agui:paddingLeft="16dp"
+    agui:paddingRight="16dp"
+    agui:textColor="#000000"
+    agui:background="#ff0000"
+    agui:text="text"
+    />
+<!--     agui:textAppearance="?agui:attr/textAppearanceListItemSmall" -->
+<!--     agui:background="?agui:attr/activatedBackgroundIndicator" -->
+<!--     agui:minHeight="?agui:attr/listPreferredItemHeightSmall" -->

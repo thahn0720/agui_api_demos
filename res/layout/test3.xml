@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	agui:layout_width="match_parent"
+	agui:layout_height="wrap_content"
+>
+	<ImageView 
+	agui:id="@+id/pic"
+	agui:layout_width="30"
+	agui:layout_height="30"
+	/>
+	
+	<TextView 
+	agui:id="@+id/name"
+	agui:layout_width="wrap_content"
+	agui:layout_height="wrap_content"
+	agui:text="name"
+	agui:layout_toRightOf="@+id/pic"
+	agui:layout_centerVertical="true"
+	/>
+	
+	<TextView 
+	agui:id="@+id/title"
+	agui:layout_width="wrap_content"
+	agui:layout_height="wrap_content"
+	agui:text="title"
+	agui:layout_alignParentRight="true"
+	/>
+</RelativeLayout>

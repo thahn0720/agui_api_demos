@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:agui="http://schemas.agui.com/apk/res/agui"
+    agui:layout_width="fill_parent"
+    agui:layout_height="fill_parent" 
+    >
+	<LinearLayout 
+	    agui:id="@+id/ll_title_layout"
+	    agui:layout_width="fill_parent"
+	    agui:layout_height="50dip"
+	    >
+	    <Button
+	        agui:id="@+id/btn_one"
+	        agui:layout_width="0dip"
+	        agui:layout_weight="1"
+	    	agui:layout_height="50dip"
+	    	agui:text="버튼1"
+	        />
+	    <Button
+	        agui:id="@+id/btn_two"
+	        agui:layout_width="0dip"
+	        agui:layout_weight="1"
+	    	agui:layout_height="50dip"
+	    	agui:text="버튼2"
+	        />
+	    <Button
+	        agui:id="@+id/btn_three"
+	        agui:layout_width="0dip"
+	        agui:layout_weight="1"
+	    	agui:layout_height="50dip"
+	    	agui:text="버튼3"
+	        />
+	</LinearLayout>
+	
+	<agui.support.v4.view.ViewPager
+            agui:id="@+id/pager"
+            agui:layout_width="fill_parent"
+            agui:layout_height="fill_parent"
+            agui:layout_above="@+id/bottom"
+        	agui:layout_below="@+id/ll_title_layout"
+             >
+    </agui.support.v4.view.ViewPager>
+	
+	
+</RelativeLayout>

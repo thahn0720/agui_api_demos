@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:agui="http://schemas.agui.com/apk/res/agui"
+  agui:id="@+id/root"
+  agui:layout_width="match_parent"
+  agui:layout_height="match_parent"
+  agui:orientation="vertical"
+  agui:background="#ffffff"
+  >
+	<include
+	agui:layout_width="match_parent" 
+	agui:layout_height="match_parent"
+	agui:layout="@layout/friends_list"
+	agui:layout_weight="1" 
+	/> 
+
+	<LinearLayout 
+	agui:id="@+id/btn_container"
+	agui:layout_width="match_parent" 
+	agui:layout_height="wrap_content"
+	>
+		<Button agui:id="@+id/ok"
+		agui:layout_width="match_parent"
+		agui:layout_height="wrap_content"
+		agui:layout_weight="1"
+		agui:text="OK"
+		/>
+		
+		<Button agui:id="@+id/cancel"
+		agui:layout_width="match_parent"
+		agui:layout_height="wrap_content"
+		agui:layout_weight="1"
+		agui:text="CANCEL"
+		/> 
+  	</LinearLayout>
+</LinearLayout>

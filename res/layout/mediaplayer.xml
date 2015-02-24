@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	agui:layout_width="match_parent"
+	agui:layout_height="wrap_content"
+	agui:orientation="horizontal"
+>
+	<Button
+	agui:id="@+id/play"
+	agui:layout_width="wrap_content"
+	agui:layout_height="wrap_content"
+	agui:text="play"
+	/>
+	
+	<Button
+	agui:id="@+id/pause"
+	agui:layout_width="wrap_content"
+	agui:layout_height="wrap_content"
+	agui:text="pause"
+	/>
+	
+	<Button
+	agui:id="@+id/stop"
+	agui:layout_width="wrap_content"
+	agui:layout_height="wrap_content"
+	agui:text="stop"
+	/>
+	
+</LinearLayout>

@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:agui="http://schemas.agui.com/apk/res/agui"
+    agui:id="@+id/parent"
+    agui:layout_width="match_parent"
+    agui:layout_height="match_parent"
+    agui:orientation="vertical"
+    >
+    <TextView 
+        agui:id="@+id/display_view"
+        agui:layout_width="match_parent"
+        agui:layout_height="match_parent"
+        agui:text="contents" 
+        agui:layout_weight="1" 
+        />
+	<EditText
+        agui:id="@+id/edit_view"
+        agui:layout_width="match_parent"
+        agui:layout_height="wrap_content"
+        agui:text="input" 
+        />
+	<Button
+        agui:id="@+id/send_btn"
+        agui:layout_width="match_parent"
+        agui:layout_height="wrap_content"
+        />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:agui="http://schemas.agui.com/apk/res/agui"
+	agui:layout_width="fill_parent"
+	agui:layout_height="wrap_content"
+	agui:id="@+id/root"
+	>
+	<Button
+		agui:id="@+id/view1"
+		agui:layout_width="wrap_content" 
+		agui:layout_height="wrap_content"
+		agui:text="Button"
+		/>
+	<TextView
+		agui:id="@+id/view2"
+		agui:layout_width="wrap_content"
+		agui:layout_height="wrap_content"
+		agui:text="Event"
+		agui:layout_toRightOf="@+id/view1"
+		/>
+	<TextView
+		agui:id="@+id/view3"
+		agui:layout_width="wrap_content" 
+		agui:layout_height="wrap_content"
+		agui:text="subtitle"
+		agui:layout_toRightOf="@+id/view1"
+		agui:layout_below="@+id/view2"
+		/>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:agui="http://schemas.agui.com/apk/res/agui"
+    agui:layout_width="fill_parent"
+    agui:layout_height="fill_parent"
+    agui:orientation="vertical" 
+    >
+    
+    <ImageView 
+        agui:id="@+id/iv_two"
+        agui:layout_width="fill_parent"
+    	agui:layout_height="fill_parent"
+    	agui:background="#ffffff"
+        />
+    
+    <Button 
+        agui:id="@+id/btn_click_2"
+        agui:layout_width="wrap_content"
+    	agui:layout_height="wrap_content"
+    	agui:text="Click2!"
+    	agui:layout_centerInParent="true"
+        />
+    
+
+</RelativeLayout>
